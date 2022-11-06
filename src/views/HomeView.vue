@@ -1,12 +1,7 @@
 <template>
   <div>
-    <h1>hai there</h1>
+    <h1 class="font-['SF_Pro_Light'] font-normal">hai there</h1>
   </div>
 </template>
 
-<style>
-h1 {
-  font-family: "SF Pro Light";
-  font-weight: 300;
-}
-</style>
+<style></style>

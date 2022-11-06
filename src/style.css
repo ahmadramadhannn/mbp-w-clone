@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @font-face {
   font-family: "SF Pro Light";
   src: url("./fonts/SF-Pro-Display-Light.otf");
