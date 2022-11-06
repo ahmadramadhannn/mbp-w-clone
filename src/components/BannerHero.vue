@@ -8,11 +8,12 @@
         class="text-[#f5f5f7] text-center text-[28px] md:text-[32px] xl:text-[40px] font-semibold"
         >MacBook Pro</span
       >
-      <span
+      <h1
         id="pro"
         class="text-[48px] md:text-[80px] xl:text-[96px] font-['SF_Pro_Medium'] bg-clip-text font-bold text-[#d2d2d7]"
-        >Pro anywhere.
-      </span>
+      >
+        Pro anywhere.
+      </h1>
       <p
         id="desc"
         class="font-['SF_Pro_Medium'] leading-[33px] xl:leading-[40px] text-[24px] md:text-[28px] xl:text-[32px] font-medium text-[#d2d2d7]"
