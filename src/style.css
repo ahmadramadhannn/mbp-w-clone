@@ -3,6 +3,11 @@
 @tailwind utilities;
 
 @font-face {
+  font-family: "SF Pro Text";
+  src: url("./fonts/SF-Pro-Text-Light.otf");
+}
+
+@font-face {
   font-family: "SF Pro Light";
   src: url("./fonts/SF-Pro-Display-Light.otf");
 }
