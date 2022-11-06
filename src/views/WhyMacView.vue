@@ -1,5 +1,5 @@
 <template>
   <div>
-    <p>this is whymac view</p>
+    <p class="text-white">this is whymac view</p>
   </div>
 </template>

@@ -3,12 +3,17 @@
 @tailwind utilities;
 
 @font-face {
+  font-family: "SF Pro Display Black";
+  src: url("./fonts/SF-Pro-Display-Black.otf");
+}
+
+@font-face {
   font-family: "SF Pro Text";
   src: url("./fonts/SF-Pro-Text-Light.otf");
 }
 
 @font-face {
-  font-family: "SF Pro Light";
+  font-family: "SF Pro Display Light";
   src: url("./fonts/SF-Pro-Display-Light.otf");
 }
 
@@ -20,4 +25,8 @@
 @font-face {
   font-family: "SF Pro Semibold";
   src: url("./fonts/SF-Pro-Display-Semibold.otf");
+}
+
+body {
+  background-color: #000;
 }
