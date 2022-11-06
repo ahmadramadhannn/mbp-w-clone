@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "SF Pro Light";
+  src: url("./fonts/SF-Pro-Display-Light.otf");
+}
+
+@font-face {
+  font-family: "SF Pro Medium";
+  src: url("./fonts/SF-Pro-Display-Medium.otf");
+}
+
+@font-face {
+  font-family: "SF Pro Semibold";
+  src: url("./fonts/SF-Pro-Display-Semibold.otf");
+}
