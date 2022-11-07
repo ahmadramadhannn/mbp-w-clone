@@ -1,6 +1,16 @@
 <template>
   <div id="banner" class="grid place-content-center mt-14">
-    <img src="../../assets/banner-hero.jpg" alt="banner-image" />
+    <video
+      autoplay
+      :class="hideVideo ? 'hidden' : 'block'"
+      src="https://www.apple.com/105/media/us/macbook-pro-13/2020/f2b14406-42ad-405e-bfa0-71b52a0bfd67/anim/hero/large.mp4"
+      @ended="showImage"
+    ></video>
+    <img
+      src="../../assets/banner-hero.jpg"
+      alt="banner-image"
+      :class="hideVideo ? 'block' : 'hidden'"
+    />
     <div
       class="lg:-translate-y-20 xl:-translate-y-32 grid place-content-center text-center w-10/12 md:w-[670px] xl:w-[900px] mx-auto"
     >
@@ -49,6 +59,16 @@
     </div>
   </div>
 </template>
+
+<script setup>
+import { ref } from "vue";
+
+const hideVideo = ref(false);
+
+const showImage = () => {
+  hideVideo.value = !hideVideo.value;
+};
+</script>
 
 <style scoped>
 #pro {
