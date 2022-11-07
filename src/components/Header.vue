@@ -31,7 +31,7 @@
   </header>
   <nav
     id="sticky"
-    class="sm:min-h-[2em] sticky top-0 z-[30] flex justify-center"
+    class="sm:min-h-[2em] sticky top-0 z-[99] backdrop-blur-md flex justify-center"
   >
     <div
       :class="{ 'h-[10em]': listPage }"

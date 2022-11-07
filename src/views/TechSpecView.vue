@@ -5,6 +5,9 @@
     >
       <SectionFinish />
       <PriceSection />
+      <ChipSection />
+      <DisplaySection />
+      <BatterySpecSection />
     </div>
   </div>
 </template>
@@ -12,4 +15,7 @@
 <script setup>
 import SectionFinish from "../components/techSpecs/SectionFinish.vue";
 import PriceSection from "../components/techSpecs/PriceSection.vue";
+import ChipSection from "../components/techSpecs/ChipSection.vue";
+import DisplaySection from "../components/techSpecs/DisplaySection.vue";
+import BatterySpecSection from "../components/techSpecs/BatterySpecSection.vue";
 </script>
