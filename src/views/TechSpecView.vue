@@ -14,6 +14,10 @@
       <KeyboardTrackpadSection />
       <WirelessSection />
       <CameraSection />
+      <AudioSection />
+      <DisplaySupportSection />
+      <VideoPlaybackSection />
+      <AudioPlaybackSection />
     </div>
   </div>
 </template>
@@ -30,4 +34,8 @@ import ChargingExpansionSection from "../components/techSpecs/ChargingExpansionS
 import KeyboardTrackpadSection from "../components/techSpecs/KeyboardTrackpadSection.vue";
 import WirelessSection from "../components/techSpecs/WirelessSection.vue";
 import CameraSection from "../components/techSpecs/CameraSection.vue";
+import AudioSection from "../components/techSpecs/AudioSection.vue";
+import DisplaySupportSection from "../components/techSpecs/DisplaySupportSection.vue";
+import VideoPlaybackSection from "../components/techSpecs/VideoPlaybackSection.vue";
+import AudioPlaybackSection from "../components/techSpecs/AudioPlaybackSection.vue";
 </script>

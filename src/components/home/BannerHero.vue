@@ -3,7 +3,7 @@
     <video
       autoplay
       :class="hideVideo ? 'hidden' : 'block'"
-      src="https://www.apple.com/105/media/us/macbook-pro-13/2020/f2b14406-42ad-405e-bfa0-71b52a0bfd67/anim/hero/large.mp4"
+      src="../../assets/large.mp4"
       @ended="showImage"
     ></video>
     <img
