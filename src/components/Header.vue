@@ -40,8 +40,8 @@
       <a
         href="#"
         class="font-['SF_Pro_Display_Light'] font-semibold sm:text-[19px] lg:text-[21px] text-[#fff]"
-        >MacBook Pro 13"</a
-      >
+        >MacBook Pro 13"
+      </a>
       <div class="grid lg:flex items-center lg:gap-6">
         <div
           :class="listPage ? 'grid' : 'hidden lg:flex'"
@@ -69,7 +69,11 @@
       </div>
     </div>
   </nav>
-  <div id="hidden" class="min-h-[2em] flex justify-center py-3">
+  <div
+    :class="{ hidden: $route.path !== '/' }"
+    id="hidden"
+    class="min-h-[2em] flex justify-center py-3"
+  >
     <div class="w-11/12 text-center">
       <span
         class="font-['SF_Pro_Text'] w-11/12 font-normal text-[#f5f5f7] text-sm"

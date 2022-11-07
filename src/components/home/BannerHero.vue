@@ -1,6 +1,6 @@
 <template>
   <div id="banner" class="grid place-content-center mt-14">
-    <img src="../assets/banner-hero.jpg" alt="banner-image" />
+    <img src="../../assets/banner-hero.jpg" alt="banner-image" />
     <div
       class="lg:-translate-y-20 xl:-translate-y-32 grid place-content-center text-center w-10/12 md:w-[670px] xl:w-[900px] mx-auto"
     >
@@ -30,7 +30,7 @@
           class="text-[28px] xl:text-[40px] font-medium text-[#d2d2d7] font-['SF_Pro_Medium'] flex flex-col justify-center md:flex md:flex-row items-center gap-2"
         >
           Supercharged by
-          <img src="../assets/m2_logo.jpg" alt="" />
+          <img src="../../assets/m2_logo.jpg" alt="" />
         </span>
       </div>
       <div class="md:flex mt-12 gap-5 items-center justify-center">
