@@ -10,6 +10,10 @@
       <BatterySpecSection />
       <MemorySection />
       <StorageSection />
+      <ChargingExpansionSection />
+      <KeyboardTrackpadSection />
+      <WirelessSection />
+      <CameraSection />
     </div>
   </div>
 </template>
@@ -22,4 +26,8 @@ import DisplaySection from "../components/techSpecs/DisplaySection.vue";
 import BatterySpecSection from "../components/techSpecs/BatterySpecSection.vue";
 import MemorySection from "../components/techSpecs/MemorySection.vue";
 import StorageSection from "../components/techSpecs/Storage²Section.vue";
+import ChargingExpansionSection from "../components/techSpecs/ChargingExpansionSection.vue";
+import KeyboardTrackpadSection from "../components/techSpecs/KeyboardTrackpadSection.vue";
+import WirelessSection from "../components/techSpecs/WirelessSection.vue";
+import CameraSection from "../components/techSpecs/CameraSection.vue";
 </script>

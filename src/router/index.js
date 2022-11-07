@@ -7,12 +7,12 @@ const routes = [
   {
     path: "/whymac",
     name: "Why Mac",
-    component: import("../views/WhyMacView.vue"),
+    component: () => import("../views/WhyMacView.vue"),
   },
   {
     path: "/techspecs",
     name: "Tech Specs",
-    component: import("../views/TechSpecView.vue"),
+    component: () => import("../views/TechSpecView.vue"),
   },
 ];
 
