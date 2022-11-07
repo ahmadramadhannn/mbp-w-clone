@@ -9,6 +9,7 @@
       <DisplaySection />
       <BatterySpecSection />
       <MemorySection />
+      <StorageSection />
     </div>
   </div>
 </template>
@@ -20,4 +21,5 @@ import ChipSection from "../components/techSpecs/ChipSection.vue";
 import DisplaySection from "../components/techSpecs/DisplaySection.vue";
 import BatterySpecSection from "../components/techSpecs/BatterySpecSection.vue";
 import MemorySection from "../components/techSpecs/MemorySection.vue";
+import StorageSection from "../components/techSpecs/Storage²Section.vue";
 </script>

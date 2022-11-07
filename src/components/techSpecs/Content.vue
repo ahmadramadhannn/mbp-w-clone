@@ -2,11 +2,11 @@
   <div id="content" class="md:flex md:justify-between">
     <p
       id="title"
-      class="font-['SF_Pro_Medium'] w-3/12 font-medium text-[#fff] text-2xl"
+      class="font-['SF_Pro_Medium'] md:w-3/12 font-medium text-[#fff] text-2xl"
     >
       {{ title }}
     </p>
-    <div class="mb-14 mt-8 md:mt-0 w-9/12">
+    <div class="mb-14 mt-8 md:mt-0 md:w-9/12">
       <slot />
     </div>
   </div>
