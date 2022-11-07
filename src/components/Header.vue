@@ -87,7 +87,7 @@
 
 <script setup>
 import { ref } from "vue";
-import NavMobile from "./NavMobile.vue";
+import NavMobile from "./home/NavMobile.vue";
 const List = ref(false);
 const listPage = ref(false);
 
