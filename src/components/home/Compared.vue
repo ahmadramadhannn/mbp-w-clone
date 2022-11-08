@@ -1,5 +1,5 @@
 <template>
-  <div class="grid p-5 md:p-10 lg:mt-6 xl:mt-0 overflow-hidden">
+  <div class="grid p-6 md:p-10 lg:mt-6 xl:mt-0 overflow-hidden">
     <div id="compared_to_m1" class="grid">
       <p
         id="title"
