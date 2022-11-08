@@ -18,6 +18,10 @@
       <DisplaySupportSection />
       <VideoPlaybackSection />
       <AudioPlaybackSection />
+      <OperatingRequirement />
+      <SizeAndWeight />
+      <OperatingSystem />
+      <Accessibility />
     </div>
   </div>
 </template>
@@ -38,4 +42,8 @@ import AudioSection from "../components/techSpecs/AudioSection.vue";
 import DisplaySupportSection from "../components/techSpecs/DisplaySupportSection.vue";
 import VideoPlaybackSection from "../components/techSpecs/VideoPlaybackSection.vue";
 import AudioPlaybackSection from "../components/techSpecs/AudioPlaybackSection.vue";
+import OperatingRequirement from "../components/techSpecs/OperatingRequirement.vue";
+import SizeAndWeight from "../components/techSpecs/SizeAndWeight.vue";
+import OperatingSystem from "../components/techSpecs/OperatingSystem.vue";
+import Accessibility from "../components/techSpecs/Accessibility.vue";
 </script>

@@ -55,7 +55,7 @@
           ></div>
           <p
             id="another_laptop"
-            class="font-['SF_Pro_Text'] w-6/12 font-semibold text-[#d2d2d7] mt-4"
+            class="font-['SF_Pro_Text'] mb-20 w-6/12 font-semibold text-[#d2d2d7] mt-4"
           >
             {{ content.comparedTo }}
           </p>
