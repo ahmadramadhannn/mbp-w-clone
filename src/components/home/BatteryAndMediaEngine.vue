@@ -1,25 +1,75 @@
 <template>
   <div class="mt-4 flex justify-center pb-20">
-    <div class="xl:w-[97%] xl:flex xl:gap-6">
-      <div id="allday_battery" class="h-[39em] rounded-3xl xl:w-[32%]">
+    <div
+      class="w-[88%] sm:w-[400px] md:w-11/12 lg:w-[979px] xl:w-[97%] 2xl:w-[1400px] grid gap-6 xl:flex xl:gap-6"
+    >
+      <div
+        id="allday_battery"
+        class="h-[32em] md:h-[40em] xl:h-[46em] rounded-3xl xl:w-[32%]"
+      >
         <p
-          class="xl:p-10 font-['SF_Pro_Display_Light'] text-[#fff] text-[21px] font-bold"
+          class="p-6 xl:p-10 font-['SF_Pro_Display_Light'] text-[#fff] text-[21px] font-bold"
         >
           All-day battery
         </p>
         <p
           id="title"
-          class="xl:p-14 text-center xl:leading-[60px] xl:mt-20 xl:text-[56px] font-['SF_Pro_Medium']"
+          class="p-6 xl:p-14 md:w-8/12 lg:w-6/12 xl:w-full md:mx-auto text-center leading-[60px] mt-14 xl:mt-20 text-[56px] md:text-7xl font-['SF_Pro_Medium']"
         >
           Up to 20 hours of battery life.¹ Go long.
         </p>
       </div>
-      <div id="media_engine" class="h-[39em] rounded-3xl xl:w-2/3">
-        <p
-          class="xl:p-10 font-['SF_Pro_Display_Light'] text-[#fff] text-[21px] font-semibold"
+      <div
+        id="media_engine"
+        class="md:h-[30] xl:h-[46em] xl:overflow-hidden rounded-3xl xl:w-2/3"
+      >
+        <div class="md:flex md:justify-between md:items-center">
+          <p
+            class="p-6 xl:p-10 font-['SF_Pro_Display_Light'] text-[#fff] text-[21px] font-semibold"
+          >
+            Media engine
+          </p>
+          <p
+            class="text-[12px] hidden md:block p-10 font-normal text-[#fff] font-['SF_Pro_Text']"
+          >
+            Final Cut pro
+          </p>
+        </div>
+        <div
+          class="grid md:bg-[url('/medi_engine_medium.png')] xl:bg-none bg-no-repeat lg:h-[30em] bg-right bg-contain gap-3 md:flex md:justify-between xl:gap-3 xl:mt-2"
         >
-          Media engine
-        </p>
+          <div class="grid p-6 xl:p-10 md:w-5/12 xl:w-[400px]">
+            <p
+              class="text-[#fff] font-bold leading-[50px] xl:leading-[60px] text-[40px] xl:text-[56px] font-['SF_Pro_Display_Light']"
+            >
+              A portable editing bay.
+            </p>
+            <p
+              class="font-['SF_Pro_Display_Light'] w-11/12 md:w-full mt-7 font-semibold text-[#fff] text-[19px]"
+            >
+              The high-performance media engine on M2 supports ProRes encode and
+              decode. So you can play and edit up to 11 streams of 4K ProRes
+              video and up to 2 streams of 8K ProRes video — including 4K ProRes
+              video shot on iPhone 13 Pro.12 And convert projects to ProRes up
+              to 3x faster than before.13
+            </p>
+            <p
+              class="text-[12px] md:hidden translate-y-96 font-normal text-[#fff] font-['SF_Pro_Text']"
+            >
+              Final Cut pro
+            </p>
+          </div>
+          <img
+            src="/media_engine_large.png"
+            alt="cut_pro"
+            class="hidden xl:block h-[40em]"
+          />
+          <img
+            src="../../assets/media_engine_small.png"
+            alt=""
+            class="h-96 md:hidden translate-x-28"
+          />
+        </div>
       </div>
     </div>
   </div>

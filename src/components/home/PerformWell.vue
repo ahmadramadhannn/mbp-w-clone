@@ -1,7 +1,10 @@
 <template>
-  <div class="mt-8 flex justify-center md:min-h-[45em]" id="perfoms_wrapper">
+  <div
+    class="mt-8 flex justify-center md:min-h-[45em] xl:h-[46em]"
+    id="perfoms_wrapper"
+  >
     <div
-      class="w-[88%] sm:w-[400px] md:w-11/12 lg:w-[979px] xl:w-[97%] 2xl:w-[1400px] md:min-h-[45em] rounded-3xl"
+      class="w-[88%] sm:w-[400px] md:w-11/12 lg:w-[979px] xl:w-[97%] 2xl:w-[1400px] md:min-h-[45em] xl:h-[46em] rounded-3xl"
       id="performs"
     >
       <div class="md:flex xl:gap-4">
