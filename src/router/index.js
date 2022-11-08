@@ -14,6 +14,11 @@ const routes = [
     name: "Tech Specs",
     component: () => import("../views/TechSpecView.vue"),
   },
+  {
+    path: "/:catchAll(.*)*",
+    name: "Applee",
+    component: () => import("../views/NotFoundView.vue"),
+  },
 ];
 
 const router = createRouter({
@@ -24,7 +29,11 @@ const router = createRouter({
 });
 
 router.beforeEach((to, from, next) => {
-  document.title = `MacBook Pro 13-inch - ${to.name}`;
+  if (to.name === "Applee") {
+    document.title = `Page Not Found - ${to.name}`;
+  } else {
+    document.title = `MacBook Pro 13-inch - ${to.name}`;
+  }
   next();
 });
 export default router;
