@@ -9,7 +9,7 @@
         Level up.
       </p>
       <img
-        src="../assets/m2_chipset.jpg"
+        src="../../assets/m2_chipset.jpg"
         alt=""
         class="sm:h-96 md:h-72 xl:h-full lg:mt-10"
       />
