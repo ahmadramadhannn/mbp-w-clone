@@ -8,7 +8,7 @@
     ></video>
     <img
       src="../../assets/banner-hero.jpg"
-      alt="banner-image"
+      alt=" banner-image"
       :class="hideVideo ? 'block' : 'hidden'"
     />
     <div
