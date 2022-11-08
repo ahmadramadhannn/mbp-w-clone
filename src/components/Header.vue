@@ -1,5 +1,8 @@
 <template>
-  <header class="bg-black relative min-h-[2em] flex justify-center">
+  <header
+    :class="$route.path === '/whymac' ? 'bg-[#1d1d1f]' : 'bg-black'"
+    class="relative min-h-[2em] flex justify-center"
+  >
     <div
       class="w-11/12 sm:w-[94%] lg:w-[980px] xl:w-[995px] flex justify-between xl:flex gap-10 items-center"
     >
@@ -30,17 +33,21 @@
     </div>
   </header>
   <nav
-    id="sticky"
+    :class="$route.path === '/whymac' ? 'bg-[#fff]' : 'stickY'"
     class="sm:min-h-[2em] sticky top-0 z-[99] backdrop-blur-md flex justify-center"
   >
     <div
-      :class="{ 'h-[10em]': listPage }"
+      :class="{
+        'h-[10em]': listPage,
+        'border-b-2': $route.path === '/whymac',
+      }"
       class="w-11/12 sm:w-[94%] lg:w-[980px] xl:w-[995px] relative lg:static flex lg:flex lg:justify-between py-2"
     >
       <router-link to="/">
         <p
           href="#"
-          class="font-['SF_Pro_Display_Light'] font-semibold sm:text-[19px] lg:text-[21px] text-[#fff]"
+          :class="$route.path === '/whymac' ? 'text-[#000]' : 'text-[#fff]'"
+          class="font-['SF_Pro_Display_Light'] font-semibold sm:text-[19px] lg:text-[21px]"
         >
           MacBook Pro 13"
         </p>
@@ -52,7 +59,8 @@
         >
           <router-link
             id="link"
-            class="text-sm p-2 xl:text-[12px] font-['SF_Pro_Text'] text-white hover:text-[#2997ff] font-normal"
+            :class="$route.path === '/whymac' ? 'text-[#000]' : 'text-white'"
+            class="text-sm p-2 xl:text-[12px] font-['SF_Pro_Text'] hover:text-[#2997ff] font-normal"
             v-for="(data, index) in pageList"
             :key="index"
             :to="data.to"
@@ -123,7 +131,7 @@ const pageList = [
 </script>
 
 <style scoped>
-#sticky,
+.stickY,
 #hidden {
   background-color: rgba(29, 29, 31, 0.72);
 }
@@ -131,7 +139,7 @@ const pageList = [
   color: gray;
 }
 
-#sticky {
+.stickY {
   border-bottom: 1px solid rgba(255, 255, 255, 0.24);
 }
 
@@ -147,7 +155,7 @@ const pageList = [
 }
 
 @media (max-width: 1023px) {
-  #sticky,
+  .stickY,
   #link {
     border-bottom: 1px solid rgba(255, 255, 255, 0.24);
   }
