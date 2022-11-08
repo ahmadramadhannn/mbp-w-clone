@@ -22,7 +22,7 @@
             alt=""
           />
           <p
-            class="sm:w-7/12 -translate-y-3 font-['SF_Pro_Text'] text-[#fff] text-[12px] font-normal text-center"
+            class="sm:w-7/12 -translate-y-3 xl:-translate-y-24 font-['SF_Pro_Text'] text-[#fff] text-[12px] font-normal text-center"
           >
             Zoom / Microsoft Excel / Adobe InDesign
           </p>

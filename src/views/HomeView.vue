@@ -5,6 +5,7 @@
     <Perfomance />
     <ThermalEfficiency />
     <PerformWell />
+    <BatteryAndMediaEngine />
   </div>
 </template>
 
@@ -14,6 +15,7 @@ import LevelUp from "../components/home/LevelUp.vue";
 import Perfomance from "../components/home/Perfomance.vue";
 import ThermalEfficiency from "../components/home/ThermalEfficiency.vue";
 import PerformWell from "../components/home/PerformWell.vue";
+import BatteryAndMediaEngine from "../components/home/BatteryAndMediaEngine.vue";
 </script>
 
 <style></style>
