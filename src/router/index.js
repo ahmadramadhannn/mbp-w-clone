@@ -3,7 +3,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
 
 const routes = [
-  { path: "/", name: "Home", component: HomeView },
+  { path: "/", name: "Apple", component: HomeView },
   {
     path: "/whymac",
     name: "Why Mac",
@@ -23,4 +23,8 @@ const router = createRouter({
   linkExactActiveClass: "active",
 });
 
+router.beforeEach((to, from, next) => {
+  document.title = `MacBook Pro 13-inch - ${to.name}`;
+  next();
+});
 export default router;
