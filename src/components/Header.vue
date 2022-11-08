@@ -37,11 +37,14 @@
       :class="{ 'h-[10em]': listPage }"
       class="w-11/12 sm:w-[94%] lg:w-[980px] xl:w-[995px] relative lg:static flex lg:flex lg:justify-between py-2"
     >
-      <a
-        href="#"
-        class="font-['SF_Pro_Display_Light'] font-semibold sm:text-[19px] lg:text-[21px] text-[#fff]"
-        >MacBook Pro 13"
-      </a>
+      <router-link to="/">
+        <p
+          href="#"
+          class="font-['SF_Pro_Display_Light'] font-semibold sm:text-[19px] lg:text-[21px] text-[#fff]"
+        >
+          MacBook Pro 13"
+        </p>
+      </router-link>
       <div class="grid lg:flex items-center lg:gap-6">
         <div
           :class="listPage ? 'grid' : 'hidden lg:flex'"
