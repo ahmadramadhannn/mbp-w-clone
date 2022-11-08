@@ -4,7 +4,7 @@
       <span
         v-for="(content, index) in operatingReqData"
         :key="index"
-        class="font-['SF_Pro_Text'] flex items-center gap-2 font-semibold text-[#fff] text-[17px]"
+        class="font-['SF_Pro_Text'] md:flex items-center gap-2 font-semibold text-[#fff] text-[17px]"
       >
         {{ content.title }}
         <p class="font-['SF_Pro_Text'] font-normal text-[#a2a2a2] text-[17px]">
