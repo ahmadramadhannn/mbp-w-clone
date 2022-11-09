@@ -34,6 +34,7 @@
 </template>
 
 <script setup>
+import { onMounted } from "vue";
 import SectionFinish from "../components/techSpecs/SectionFinish.vue";
 import PriceSection from "../components/techSpecs/PriceSection.vue";
 import ChipSection from "../components/techSpecs/ChipSection.vue";
@@ -60,4 +61,8 @@ import ConfigureToOrderSection from "../components/techSpecs/ConfigureToOrderSec
 import MacbookProEnvSection from "../components/techSpecs/MacbookProEnvSection.vue";
 import AccessoriesSection from "../components/techSpecs/AccessoriesSection.vue";
 import MacBookProSection from "../components/techSpecs/MacBookProSection.vue";
+
+onMounted(() => {
+  document.body.style.backgroundColor = "black";
+});
 </script>

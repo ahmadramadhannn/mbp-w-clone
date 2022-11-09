@@ -4,3 +4,11 @@
     <p class="text-black">hai</p>
   </div>
 </template>
+
+<script setup>
+import { onMounted } from "vue";
+
+onMounted(() => {
+  document.body.style.backgroundColor = "white";
+});
+</script>

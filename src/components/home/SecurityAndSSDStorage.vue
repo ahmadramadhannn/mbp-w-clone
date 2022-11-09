@@ -1,5 +1,5 @@
 <template>
-  <div class="h-[10000px]">
+  <div>
     <p class="text-white" ref="text">***</p>
   </div>
 </template>
