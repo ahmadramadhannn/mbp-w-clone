@@ -1,5 +1,5 @@
 <template>
-  <div id="wrapper" class="min-h-[70vh] rounded-3xl">
+  <div id="wrapper" class="min-h-[70vh] mb-10 sm:mb-14 rounded-3xl">
     <div class="grid p-8 sm:p-12 xl:p-20">
       <div
         class="flex flex-col-reverse md:flex md:flex-row md:justify-between items-center"

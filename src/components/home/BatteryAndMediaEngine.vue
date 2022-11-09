@@ -21,7 +21,7 @@
       </div>
       <div
         id="media_engine"
-        class="md:h-[30] xl:h-[46em] xl:overflow-hidden rounded-3xl xl:w-2/3"
+        class="md:h-[30] xl:h-[46em] overflow-hidden xl:overflow-hidden rounded-3xl xl:w-2/3"
       >
         <div class="md:flex md:justify-between md:items-center">
           <p
