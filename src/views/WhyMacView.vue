@@ -1,5 +1,6 @@
 <template>
-  <div class="bg-[#fff] h-screen">
-    <p class="text-white">this is whymac view</p>
+  <div class="bg-[#fff] h-[200vh]">
+    <p class="text-black-rgba">this is whymac view</p>
+    <p class="text-black">hai</p>
   </div>
 </template>

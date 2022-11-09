@@ -16,10 +16,11 @@
         $299 for other repairable accidental damage, plus applicable tax.
       </span>
       <a
+        id="link"
         href="https://support.apple.com/"
         target="_blank"
         class="text-[#2997ff] mt-8 hover:underline font-['SF_Pro_Text'] font-normal"
-        >Learn more ></a
+        >Learn more</a
       >
     </div>
   </Content>
@@ -28,3 +29,9 @@
 <script setup>
 import Content from "./Content.vue";
 </script>
+
+<style scoped>
+#link::after {
+  content: " ›";
+}
+</style>

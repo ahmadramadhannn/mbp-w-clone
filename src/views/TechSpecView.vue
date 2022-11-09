@@ -28,6 +28,7 @@
       <ConfigureToOrderSection />
       <MacbookProEnvSection />
       <AccessoriesSection />
+      <MacBookProSection />
     </div>
   </div>
 </template>
@@ -58,4 +59,5 @@ import LimitedWarrantyServiceSection from "../components/techSpecs/LimitedWarran
 import ConfigureToOrderSection from "../components/techSpecs/ConfigureToOrderSection.vue";
 import MacbookProEnvSection from "../components/techSpecs/MacbookProEnvSection.vue";
 import AccessoriesSection from "../components/techSpecs/AccessoriesSection.vue";
+import MacBookProSection from "../components/techSpecs/MacBookProSection.vue";
 </script>

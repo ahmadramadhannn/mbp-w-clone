@@ -1,6 +1,6 @@
 <template>
   <header
-    :class="$route.path === '/whymac' ? 'bg-[#1d1d1f]' : 'bg-black'"
+    :class="$route.path === '/whymac' ? 'whymac' : 'bg-black'"
     class="relative min-h-[2em] flex justify-center"
   >
     <div
@@ -91,10 +91,11 @@
       >
         Get a 13-inch MacBook Pro starting at $1199 in our Education Store.*
         <a
+          id="link_shop"
           href="https://www.apple.com/us-hed/shop"
           target="_blank"
           class="text-[#2997ff] hover:underline"
-          >Shop ></a
+          >Shop</a
         >
       </span>
     </div>
@@ -136,9 +137,19 @@ const pageList = [
 </script>
 
 <style scoped>
+#link_shop::after {
+  content: " ›";
+}
+body {
+  background: white;
+}
 .stickY,
 #hidden {
   background-color: rgba(29, 29, 31, 0.72);
+}
+
+.whymac {
+  background-color: rgba(0, 0, 0, 0.8) !important;
 }
 .active {
   color: gray;

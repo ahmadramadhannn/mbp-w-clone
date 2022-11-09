@@ -28,6 +28,6 @@
 }
 
 body {
-  background-color: #000;
+  background: black;
   scroll-behavior: smooth;
 }

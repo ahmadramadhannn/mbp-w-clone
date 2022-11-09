@@ -11,7 +11,7 @@
         target="_blank"
         class="text-[#2997ff] mt-4 cursor-pointer hover:underline font-normal text-[17px] font-['SF_Pro_Text']"
       >
-        Learn more >
+        Learn more
       </a>
     </div>
     <p class="font-['SF_Pro_Text'] mt-14 font-semibold text-[#fff] text-[17px]">
@@ -47,3 +47,9 @@ const featuresIncludeData = [
   { id: 3, feature: ["Switch Control", "Live Captions"] },
 ];
 </script>
+
+<style scoped>
+a::after {
+  content: " ›";
+}
+</style>

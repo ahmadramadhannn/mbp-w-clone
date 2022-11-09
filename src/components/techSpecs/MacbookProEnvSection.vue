@@ -24,7 +24,7 @@
               href="https://www.apple.com/environment/#reports-product"
               target="_blank"
               class="font-['SF_Pro_Text'] text-sm md:text-[17px] font-normal text-[#2997ff] hover:underline"
-              >See the 13-inch MacBook Pro Product Environmental Report ></a
+              >See the 13-inch MacBook Pro Product Environmental Report</a
             >
           </div>
           <div
@@ -68,8 +68,8 @@
               target="_blank"
               :href="data.link"
               class="text-[#2997ff] hover:underline text-sm md:text-[17px] font-normal font-['SF_Pro_Text']"
-              >{{ data.goTo }} ></a
-            >
+              >{{ data.goTo }}
+            </a>
           </div>
         </div>
       </div>
@@ -110,5 +110,9 @@ const environmentData = ref(envData);
 <style scoped>
 #wrapper {
   background: #1d1d1f;
+}
+
+a::after {
+  content: " ›";
 }
 </style>
