@@ -10,6 +10,16 @@
           >apple.com</a
         >:
       </span>
+      <p
+        class="text-[#a2a2a2] mt-8 text-[17px] font-normal font-['SF_Pro_Text']"
+      >
+        16GB or 24GB unified memory
+      </p>
+      <p
+        class="text-[#a2a2a2] mt-3 text-[17px] font-normal font-['SF_Pro_Text']"
+      >
+        512GB, 1TB, or 2TB SSD
+      </p>
     </div>
   </Content>
 </template>

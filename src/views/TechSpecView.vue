@@ -26,6 +26,7 @@
       <InTheBoxSection />
       <LimitedWarrantyServiceSection />
       <ConfigureToOrderSection />
+      <MacbookProEnvSection />
     </div>
   </div>
 </template>
@@ -54,4 +55,5 @@ import BuiltInApp from "../components/techSpecs/BuiltInApp.vue";
 import InTheBoxSection from "../components/techSpecs/InTheBoxSection.vue";
 import LimitedWarrantyServiceSection from "../components/techSpecs/LimitedWarrantyServiceSection.vue";
 import ConfigureToOrderSection from "../components/techSpecs/ConfigureToOrderSection.vue";
+import MacbookProEnvSection from "../components/techSpecs/MacbookProEnvSection.vue";
 </script>
