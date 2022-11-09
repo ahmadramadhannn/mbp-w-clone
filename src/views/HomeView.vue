@@ -6,6 +6,7 @@
     <ThermalEfficiency />
     <PerformWell />
     <BatteryAndMediaEngine />
+    <SecurityAndSSDStorage />
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import Perfomance from "../components/home/Perfomance.vue";
 import ThermalEfficiency from "../components/home/ThermalEfficiency.vue";
 import PerformWell from "../components/home/PerformWell.vue";
 import BatteryAndMediaEngine from "../components/home/BatteryAndMediaEngine.vue";
+import SecurityAndSSDStorage from "../components/home/SecurityAndSSDStorage.vue";
 </script>
 
 <style></style>

@@ -22,6 +22,10 @@
       <SizeAndWeight />
       <OperatingSystem />
       <Accessibility />
+      <BuiltInApp />
+      <InTheBoxSection />
+      <LimitedWarrantyServiceSection />
+      <ConfigureToOrderSection />
     </div>
   </div>
 </template>
@@ -46,4 +50,8 @@ import OperatingRequirement from "../components/techSpecs/OperatingRequirement.v
 import SizeAndWeight from "../components/techSpecs/SizeAndWeight.vue";
 import OperatingSystem from "../components/techSpecs/OperatingSystem.vue";
 import Accessibility from "../components/techSpecs/Accessibility.vue";
+import BuiltInApp from "../components/techSpecs/BuiltInApp.vue";
+import InTheBoxSection from "../components/techSpecs/InTheBoxSection.vue";
+import LimitedWarrantyServiceSection from "../components/techSpecs/LimitedWarrantyServiceSection.vue";
+import ConfigureToOrderSection from "../components/techSpecs/ConfigureToOrderSection.vue";
 </script>

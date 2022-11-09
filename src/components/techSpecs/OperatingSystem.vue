@@ -11,7 +11,7 @@
       </span>
       <a
         href="https://www.apple.com/macos/ventura/"
-        class="text-[#2997ff] text-[17px] font-normal mt-3 font-['SF_Pro_Text']"
+        class="text-[#2997ff] text-[17px] font-normal mt-3 cursor-pointer hover:underline font-['SF_Pro_Text']"
         target="_blank"
         >Learn more ></a
       >

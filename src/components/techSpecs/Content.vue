@@ -2,7 +2,7 @@
   <div id="content" class="md:flex md:justify-between">
     <p
       id="title"
-      class="font-['SF_Pro_Medium'] md:w-3/12 lg:w-[23%] font-medium text-[#fff] text-[21px] xl:text-2xl"
+      class="font-['SF_Pro_Medium'] md:w-[18%] lg:w-[21%] font-medium text-[#fff] text-[21px] xl:text-2xl"
     >
       {{ title }}
     </p>
