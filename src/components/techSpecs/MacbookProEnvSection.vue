@@ -75,6 +75,10 @@
       </div>
     </div>
   </div>
+  <hr
+    class="hidden md:block"
+    style="height: 2px; border-width: 0; background-color: #1d1d1f"
+  />
 </template>
 
 <script setup>
