@@ -90,7 +90,12 @@
         class="font-['SF_Pro_Text'] w-11/12 font-normal text-[#f5f5f7] text-sm"
       >
         Get a 13-inch MacBook Pro starting at $1199 in our Education Store.*
-        <span class="text-[#2997ff]">Shop ></span>
+        <a
+          href="https://www.apple.com/us-hed/shop"
+          target="_blank"
+          class="text-[#2997ff] hover:underline"
+          >Shop ></a
+        >
       </span>
     </div>
   </div>
