@@ -33,13 +33,17 @@
     </div>
   </header>
   <nav
-    :class="$route.path === '/whymac' ? 'bg-[#fff]' : 'stickY'"
+    :class="{
+      'bg-[#fff]': $route.path === '/whymac',
+      stickY: $route.path != '/whymac',
+      'border-b-2': scrollY > 50 && $route.path === '/whymac',
+    }"
     class="sm:min-h-[2em] sticky top-0 z-[99] backdrop-blur-md flex justify-center"
   >
     <div
       :class="{
         'h-[10em]': listPage,
-        'border-b-2': $route.path === '/whymac',
+        'border-b-2': $route.path === '/whymac' && scrollY < 50,
       }"
       class="w-11/12 sm:w-[94%] lg:w-[980px] xl:w-[995px] relative lg:static flex lg:flex lg:justify-between py-2"
     >
@@ -103,10 +107,12 @@
 </template>
 
 <script setup>
-import { ref } from "vue";
+import { ref, onMounted } from "vue";
 import NavMobile from "./home/NavMobile.vue";
 const List = ref(false);
 const listPage = ref(false);
+const scrollTimer = ref(0);
+const scrollY = ref(0);
 
 const showList = () => {
   List.value = !List.value;
@@ -134,6 +140,18 @@ const pageList = [
   { id: 2, page: "Why Mac", to: "/whymac" },
   { id: 3, page: "Tech Specs", to: "/techspecs" },
 ];
+
+const handleScroll = () => {
+  if (scrollTimer.value) return;
+  scrollTimer.value = setTimeout(() => {
+    scrollY.value = window.scrollY;
+    scrollTimer.value = 0;
+  }, 100);
+};
+
+onMounted(() => {
+  window.addEventListener("scroll", handleScroll);
+});
 </script>
 
 <style scoped>
