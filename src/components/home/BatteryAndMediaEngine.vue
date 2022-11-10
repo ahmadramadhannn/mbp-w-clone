@@ -13,6 +13,7 @@
           All-day battery
         </p>
         <p
+          ref="title"
           id="title"
           class="p-6 xl:p-14 md:w-8/12 lg:w-6/12 xl:w-full md:mx-auto text-center leading-[60px] mt-14 xl:mt-20 text-[56px] md:text-7xl font-['SF_Pro_Medium']"
         >
@@ -75,15 +76,31 @@
   </div>
 </template>
 
+<script setup>
+import { onMounted, ref } from "vue";
+
+const title = ref(null);
+
+const showAnimation = () => {
+  let top = window.pageYOffset + window.innerHeight;
+  let isVisble = top > title.value.offsetTop;
+
+  if (isVisble) {
+    title.value.classList.add("animate");
+  }
+};
+
+onMounted(() => {
+  window.addEventListener("scroll", showAnimation);
+});
+</script>
+
 <style scoped>
 #allday_battery {
   background: linear-gradient(to bottom, #203025 0%, #151516 100%);
 }
 
 #title {
-  animation: changeColor;
-  animation-timing-function: ease-out;
-  animation-duration: 5s;
   background-image: linear-gradient(to top, white 50%, #4cd265 50%);
   background-size: 100% 200%;
   background-position: 0% 0%;
@@ -93,6 +110,12 @@
 
 #media_engine {
   background: linear-gradient(165deg, #2c4735 0%, #1d243e 60%, #101124 90%);
+}
+
+#title.animate {
+  animation: changeColor;
+  animation-timing-function: ease-out;
+  animation-duration: 5s;
 }
 
 @keyframes changeColor {
