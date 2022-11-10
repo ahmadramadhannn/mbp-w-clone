@@ -2,6 +2,8 @@
   <div id="banner" class="grid place-content-center mt-14">
     <video
       autoplay
+      playsinline
+      muted
       :class="hideVideo ? 'hidden' : 'block'"
       src="../../assets/large.mp4"
       @ended="showImage"
