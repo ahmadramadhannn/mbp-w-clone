@@ -20,7 +20,7 @@
         </p>
         <a
           href="#_"
-          class="inline-flex text-[17px] font-['SF_Pro_Text'] items-center justify-center mt-7 h-8 px-3 xl:px-10 mx-auto font-bold text-[#000] transition duration-200 bg-[#e8e8ed] rounded-full hover:bg-gray-800 focus:shadow-outline focus:outline-none"
+          class="inline-flex text-[17px] font-['SF_Pro_Text'] items-center justify-center mt-7 h-8 px-3 xl:px-10 mx-auto font-bold text-[#000] transition duration-200 bg-[#e8e8ed] rounded-full focus:shadow-outline focus:outline-none"
         >
           More about how Mac is easy
         </a>
