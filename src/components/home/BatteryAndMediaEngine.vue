@@ -77,7 +77,7 @@
 </template>
 
 <script setup>
-import { onMounted, ref } from "vue";
+import { onMounted, onUnmounted, ref } from "vue";
 
 const title = ref(null);
 
@@ -92,6 +92,10 @@ const showAnimation = () => {
 
 onMounted(() => {
   window.addEventListener("scroll", showAnimation);
+});
+
+onUnmounted(() => {
+  window.removeEventListener("scroll", showAnimation);
 });
 </script>
 
