@@ -7,7 +7,7 @@
       <img src="/power_large.jpg" class="hidden lg:block md:mt-32" alt="" />
 
       <div
-        class="mt-10 grid w-10/12 sm:w-9/12 lg:w-[380px] xl:w-[600px] mx-auto xl:mx-auto md:-translate-y-[580px] xl:-translate-y-[600px] 2xl:-translate-y-[650px] place-item-center place-content-center"
+        class="mt-10 grid w-10/12 sm:w-9/12 lg:w-[380px] xl:w-[600px] mx-auto xl:mx-auto xl:-translate-y-[600px] 2xl:-translate-y-[650px] place-item-center place-content-center"
       >
         <span
           class="font-['SF_Pro_Semibold'] xl:mx-auto xl:w-11/12 text-center leading-[47px] font-semibold text-[44px] lg:text-[56px] xl:text-7xl text-[#1d1d1f]"
@@ -30,7 +30,7 @@
         </a>
       </div>
       <div
-        class="h-[40em] lg:hidden mt-14 bg-[url('/power_small.jpg')] grid place-content-center place-items-center bg-no-repeat bg-cover bg-center md:bg-[center_top]"
+        class="h-[42em] lg:hidden mt-14 bg-[url('/power_small.jpg')] grid place-content-center place-items-center bg-no-repeat bg-cover bg-center md:bg-[center_top]"
       >
         <p
           class="font-['SF_Pro_Text'] -translate-y-8 font-normal text-[#1d1d1f] text-[12px] text-center"
