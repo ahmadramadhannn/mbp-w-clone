@@ -2,7 +2,7 @@
   <div class="mt-7 flex justify-center">
     <div
       id="container"
-      class="rounded-3xl w-11/12 sm:w-[400px] md:w-[94%] xl:w-[1300px] 2xl:w-[1400px] lg:h-[36em] xl:h-[40em] bg-[#fff]"
+      class="rounded-3xl w-11/12 sm:w-[400px] md:w-[94%] xl:w-[1300px] 2xl:w-[1400px] lg:h-[36em] xl:h-[47em] xl:overflow-hidden bg-[#fff]"
     >
       <img src="/power_large.jpg" class="hidden lg:block md:mt-32" alt="" />
 

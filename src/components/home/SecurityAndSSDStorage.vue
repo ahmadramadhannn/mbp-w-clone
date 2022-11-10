@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p class="text-white" ref="text">***</p>
+    <p class="text-white" ref="text">Keep what’s private, pri••••.</p>
   </div>
 </template>
 
