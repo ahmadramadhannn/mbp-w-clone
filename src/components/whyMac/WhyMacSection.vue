@@ -2,7 +2,7 @@
   <div class="flex justify-center">
     <div class="grid place-items-center mt-10 xl:mt-20 xl:w-[1080px]">
       <span
-        class="font-['SF_Pro_Semibold'] font-semibold text-[#1d1d1f] text-[48px] sm:text-[64px] xl:text-[80px]"
+        class="font-['SF_Pro_Semibold'] font-semibold text-[#1d1d1f] text-[48px] md:text-[64px] xl:text-[80px]"
         >Why Mac</span
       >
       <img
