@@ -1,14 +1,14 @@
 <template>
-  <div class="bg-[#fff] h-[200vh]">
-    <p class="text-black-rgba">this is whymac view</p>
-    <p class="text-black">hai</p>
-  </div>
+  <WhyMacSection />
+  <EasySetupSection />
 </template>
 
 <script setup>
 import { onMounted } from "vue";
+import WhyMacSection from "../components/whyMac/WhyMacSection.vue";
+import EasySetupSection from "../components/whyMac/EasySetupSection.vue";
 
 onMounted(() => {
-  document.body.style.backgroundColor = "white";
+  document.body.style.backgroundColor = "#f5f5f7";
 });
 </script>
