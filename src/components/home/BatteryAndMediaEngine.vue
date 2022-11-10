@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-4 flex justify-center pb-20">
+  <div class="mt-4 flex justify-center pb-6">
     <div
       class="w-[88%] sm:w-[400px] md:w-11/12 lg:w-[979px] xl:w-[97%] 2xl:w-[1400px] grid gap-6 xl:flex xl:gap-6"
     >
