@@ -1,7 +1,7 @@
 <template>
   <div class="flex justify-center">
     <div
-      class="w-[88%] sm:w-[400px] md:w-11/12 xl:w-[1300px] 2xl:w-[1400px] xl:flex xl:gap-6"
+      class="w-[88%] sm:w-[400px] md:w-11/12 lg:w-[979px] xl:w-[1300px] 2xl:w-[1400px] xl:flex xl:gap-6"
     >
       <div class="xl:w-[68%] rounded-3xl h-[45em] xl:h-[45em] bg-[#151516]">
         <p
