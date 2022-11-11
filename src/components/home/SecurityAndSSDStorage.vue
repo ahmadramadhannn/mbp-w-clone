@@ -9,9 +9,9 @@
         >
           Security
         </p>
-        <div class="text-center mt-14 md:mt-48">
+        <div class="text-center mt-14 md:mt-32">
           <p
-            class="text-[#d2d2d7] w-11/12 sm:w-9/12 md:w-6/12 leading-[60px] text-center mx-auto font-['SF_Pro_Medium'] text-[48px] md:text-[64px] font-bold"
+            class="text-[#d2d2d7] w-11/12 sm:w-9/12 md:w-8/12 leading-[60px] text-center mx-auto font-['SF_Pro_Medium'] text-[48px] md:text-[64px] font-bold"
           >
             MacBook Pro. Securely yours.
           </p>

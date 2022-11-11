@@ -3,7 +3,7 @@
     id="led_display"
     v-for="(data, index) in displayData"
     :key="index"
-    :class="image ? `bg-[url('${image}')] bg-no-repeat bg-cover` : ''"
+    :class="image ? `bg-[url('${image}')] bg-no-repeat bg-cover bg-center` : ''"
     class="p-6 lg:p-10 rounded-3xl h-[35em] md:h-[44em] xl:h-[40em] 2xl:h-[42em] bg-[#151516] md:w-[300px] lg:w-[470px] xl:w-1/3"
   >
     <span
