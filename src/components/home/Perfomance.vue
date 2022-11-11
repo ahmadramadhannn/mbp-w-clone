@@ -1,7 +1,7 @@
 <template>
   <div class="flex justify-center mt-48 xl:mt-[235px]">
     <div
-      class="bg-[#151516] min-h-screen w-[88%] sm:w-[400px] md:w-11/12 lg:w-[979px] xl:w-[97%] 2xl:w-[1400px] md:flex rounded-3xl"
+      class="bg-[#151516] min-h-screen w-10/12 sm:w-[400px] md:w-11/12 lg:w-[979px] xl:w-[97%] 2xl:w-[1400px] md:flex rounded-3xl"
     >
       <div id="aside" class="p-6 md:p-8 xl:p-10 xl:w-[450px]">
         <div class="grid">

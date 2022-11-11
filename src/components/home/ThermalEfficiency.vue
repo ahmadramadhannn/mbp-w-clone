@@ -1,7 +1,7 @@
 <template>
   <div class="mt-8 flex justify-center">
     <div
-      class="grid gap-5 md:flex xl:gap-5 w-[88%] sm:w-[400px] md:w-11/12 lg:w-[979px] xl:w-[97%] 2xl:w-[1400px]"
+      class="grid gap-5 md:flex xl:gap-5 w-10/12 sm:w-[400px] md:w-11/12 lg:w-[979px] xl:w-[97%] 2xl:w-[1400px]"
     >
       <div
         id="thermal_efficiency"

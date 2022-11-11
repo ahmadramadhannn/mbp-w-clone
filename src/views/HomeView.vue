@@ -10,6 +10,8 @@
     <DisplayIntroSection />
     <DisplayTechnology />
     <IntroCameraSection />
+    <FaceTimeAndMicSection />
+    <MagicKeyboardSection />
   </div>
 </template>
 
@@ -25,6 +27,8 @@ import SecurityAndSSDStorage from "../components/home/SecurityAndSSDStorage.vue"
 import DisplayIntroSection from "../components/home/DisplayIntroSection.vue";
 import DisplayTechnology from "../components/home/DisplayTechnology.vue";
 import IntroCameraSection from "../components/home/IntroCameraSection.vue";
+import FaceTimeAndMicSection from "../components/home/FaceTimeAndMicSection.vue";
+import MagicKeyboardSection from "../components/home/MagicKeyboardSection.vue";
 
 onMounted(() => {
   document.body.style.backgroundColor = "black";
