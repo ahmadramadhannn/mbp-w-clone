@@ -25,7 +25,7 @@
     />
     <img
       src="../../assets/magic_keyboard__brx9diaauwaa_medium_2x.jpg"
-      class="mt-16 lg:h-[450px] xl:hidden"
+      class="mt-16 hidden lg:h-[450px] xl:hidden"
       alt=""
     />
     <img
