@@ -8,6 +8,7 @@
     <BatteryAndMediaEngine />
     <SecurityAndSSDStorage />
     <DisplayIntroSection />
+    <DisplayTechnology />
   </div>
 </template>
 
@@ -21,6 +22,7 @@ import PerformWell from "../components/home/PerformWell.vue";
 import BatteryAndMediaEngine from "../components/home/BatteryAndMediaEngine.vue";
 import SecurityAndSSDStorage from "../components/home/SecurityAndSSDStorage.vue";
 import DisplayIntroSection from "../components/home/DisplayIntroSection.vue";
+import DisplayTechnology from "../components/home/DisplayTechnology.vue";
 
 onMounted(() => {
   document.body.style.backgroundColor = "black";
