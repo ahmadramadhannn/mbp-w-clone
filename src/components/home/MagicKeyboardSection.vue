@@ -25,13 +25,13 @@
     />
     <img
       src="../../assets/magic_keyboard__brx9diaauwaa_medium_2x.jpg"
-      class="mt-16 hidden lg:h-[450px] xl:hidden"
+      class="mt-16 hidden md:h-[400px] lg:h-[450px] xl:hidden"
       alt=""
     />
     <img
       src="../../assets/magic_keyboard__brx9diaauwaa_large.jpg"
       alt=""
-      class="hidden xl:block mt-16"
+      class="hidden lg:block mt-16"
     />
   </div>
 </template>

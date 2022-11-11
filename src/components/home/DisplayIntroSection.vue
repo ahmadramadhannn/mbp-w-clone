@@ -26,12 +26,12 @@
   </div>
   <div class="flex justify-center mb-20">
     <div
-      class="mt-14 grid place-content-center place-items-center h-[14em] md:h-[30em] xl:h-[44em] w-[93%] sm:w-[370px] md:w-[1200px] lg:w-9/12 xl:w-[1210px] bg-[url('/retina_hero_hardware_small_2x.jpg')] md:bg-[url('/retina_hero_hardware_large.jpg')] bg-no-repeat bg-contain xl:bg-cover bg-[center_bottom] md:bg-[center_bottom]"
+      class="mt-14 grid place-content-center place-items-center h-[14em] md:h-[30em] xl:h-[44em] w-[91%] sm:w-[370px] md:w-[1200px] lg:w-9/12 xl:w-[1210px] bg-[url('/retina_hero_hardware_small_2x.jpg')] md:bg-[url('/retina_hero_hardware_large.jpg')] bg-no-repeat bg-contain xl:bg-cover bg-[center_bottom] md:bg-[center_bottom]"
     >
       <img
         src="../../assets/retina_hero_screen_small.jpg"
         alt=""
-        class="w-[77%] md:hidden"
+        class="w-[74%] mt-5 md:hidden"
       />
       <img
         src="../../assets/retina_hero_screen__gddr9b8m4kuq_medium.jpg"

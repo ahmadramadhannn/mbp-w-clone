@@ -20,7 +20,7 @@
       </p>
     </div>
     <div
-      class="mt-14 w-[350px] md:w-[800px] xl:w-[1100px] flex justify-center bg-[url('https://res.cloudinary.com/dk7urhntn/image/upload/v1668142345/macbook/camera_hero_hardware__cfpmer0zbeeu_small_2x_fhzu42.jpg')] md:bg-[url('https://res.cloudinary.com/dk7urhntn/image/upload/v1668143163/macbook/camera_hero_hardware__cfpmer0zbeeu_medium_2x_enwvon.jpg')] xl:bg-[url('https://res.cloudinary.com/dk7urhntn/image/upload/v1668141194/macbook/camera_hero_hardware__cfpmer0zbeeu_large_2x_opdswm.jpg')] bg-center bg-no-repeat bg-contain md:bg-cover h-[20em] md:h-[30em] xl:h-[40em]"
+      class="mt-14 w-[350px] md:w-[750px] xl:w-[1100px] flex justify-center bg-[url('https://res.cloudinary.com/dk7urhntn/image/upload/v1668142345/macbook/camera_hero_hardware__cfpmer0zbeeu_small_2x_fhzu42.jpg')] md:bg-[url('https://res.cloudinary.com/dk7urhntn/image/upload/v1668143163/macbook/camera_hero_hardware__cfpmer0zbeeu_medium_2x_enwvon.jpg')] xl:bg-[url('https://res.cloudinary.com/dk7urhntn/image/upload/v1668141194/macbook/camera_hero_hardware__cfpmer0zbeeu_large_2x_opdswm.jpg')] bg-center bg-no-repeat bg-contain md:bg-cover h-[20em] md:h-[30em] xl:h-[40em]"
     >
       <img
         ref="image"
