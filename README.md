@@ -1,7 +1,17 @@
-# Vue 3 + Vite
+# MacBook Pro 13-inch web clone
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+A fully responsive macbook pro 13 website clone, i created this with 6 days.
 
-## Recommended IDE Setup
+# Live Preview
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+this is website is deploy to netlify and you can check in here (https://macbook-pro-13-clone-vuejs-tailwindcs.netlify.app/)
+
+# Why i build this website
+
+because i love the design of macbook pro 13 website, and i think i can created something like that too
+
+# Build with
+
+- VueJS 3
+- Tailwindcss
+- Vue Router
