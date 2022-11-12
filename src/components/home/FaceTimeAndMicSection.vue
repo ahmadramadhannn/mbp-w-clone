@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-2 xl:mt-12 flex justify-center">
+  <div class="mt-2 xl:mt-3 flex justify-center">
     <div
       class="w-[87%] sm:w-[400px] md:w-11/12 xl:w-[1300px] grid gap-5 md:flex md:gap-4 xl:flex xl:gap-5 2xl:w-[1400px]"
     >

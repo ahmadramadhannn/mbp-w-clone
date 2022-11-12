@@ -15,6 +15,7 @@
     <ScissorSection />
     <TouchIDSection />
     <ConnectivityIntroSection />
+    <PortAndWifiSection />
   </div>
 </template>
 
@@ -35,6 +36,7 @@ import MagicKeyboardSection from "../components/home/MagicKeyboardSection.vue";
 import ScissorSection from "../components/home/ScissorSection.vue";
 import TouchIDSection from "../components/home/TouchIDSection.vue";
 import ConnectivityIntroSection from "../components/home/ConnectivityIntroSection.vue";
+import PortAndWifiSection from "../components/home/PortAndWifiSection.vue";
 
 onMounted(() => {
   document.body.style.backgroundColor = "black";
