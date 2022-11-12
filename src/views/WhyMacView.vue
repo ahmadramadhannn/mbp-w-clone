@@ -4,6 +4,7 @@
   <ProductivitySection />
   <MacIsEasySection />
   <ContinuitySection />
+  <PrivacyAndSecuritySection />
 </template>
 
 <script setup>
@@ -13,6 +14,7 @@ import EasySetupSection from "../components/whyMac/EasySetupSection.vue";
 import ProductivitySection from "../components/whyMac/ProductivitySection.vue";
 import MacIsEasySection from "../components/whyMac/MacIsEasySection.vue";
 import ContinuitySection from "../components/whyMac/ContinuitySection.vue";
+import PrivacyAndSecuritySection from "../components/whyMac/PrivacyAndSecuritySection.vue";
 
 onMounted(() => {
   document.body.style.backgroundColor = "#f5f5f7";

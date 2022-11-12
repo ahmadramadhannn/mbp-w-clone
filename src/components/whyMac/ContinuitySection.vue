@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-center mb-32">
+  <div class="flex justify-center">
     <div
       class="mt-7 w-11/12 sm:w-[400px] xl:min-h-[40em] bg-[#fff] rounded-2xl grid place-content-center place-items-center md:w-[94%] xl:w-[1300px] 2xl:w-[1400px]"
     >
@@ -26,10 +26,16 @@
           More about continuity
         </a>
       </div>
+      <div
+        class="mt-10 w-11/12 bg-[url('https://res.cloudinary.com/dk7urhntn/image/upload/v1668230501/macbook/plays_nicely__brk18hjlople_small_2x_kycvku.jpg')] md:hidden bg-no-repeat bg-center bg-cover h-[17em]"
+      ></div>
+      <div
+        class="mt-10 w-[94%] h-[21em] xl:hidden bg-no-repeat bg-center bg-cover bg-[url('https://res.cloudinary.com/dk7urhntn/image/upload/v1668231727/macbook/plays_nicely__brk18hjlople_medium_2x_1_jcxtkw.jpg')]"
+      ></div>
       <img
-        src="https://www.apple.com/v/mac/shared/why-mac/f/images/overview/plays_nicely__brk18hjlople_large.jpg"
+        src="../../assets/plays_nicely__brk18hjlople_large.jpg"
         alt=""
-        class="mt-20 hidden md:block"
+        class="mt-20 hidden xl:block"
       />
     </div>
   </div>
