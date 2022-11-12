@@ -1,7 +1,7 @@
 <template>
   <div class="flex justify-center">
     <div
-      class="grid mt-32 xl:mt-48 w-[88%] sm:w-[400px] md:w-[680px] xl:w-[940px]"
+      class="grid mt-32 xl:mt-48 w-[87%] sm:w-[400px] md:w-[680px] xl:w-[940px]"
     >
       <span
         class="font-['SF_Pro_Medium'] leading-[50px] font-bold text-[#a1a1a6] text-5xl md:text-[64px] xl:text-[80px]"

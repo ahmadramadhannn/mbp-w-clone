@@ -1,7 +1,7 @@
 <template>
   <div class="mt-4 flex justify-center pb-6">
     <div
-      class="w-10/12 sm:w-[400px] md:w-11/12 lg:w-[979px] xl:w-[97%] 2xl:w-[1400px] grid gap-6 xl:flex xl:gap-6"
+      class="w-[87%] sm:w-[400px] md:w-11/12 lg:w-[979px] xl:w-[97%] 2xl:w-[1400px] grid gap-6 xl:flex xl:gap-6"
     >
       <div
         id="allday_battery"

@@ -1,7 +1,7 @@
 <template>
   <div class="mt-2 xl:mt-12 flex justify-center">
     <div
-      class="w-10/12 sm:w-[400px] md:w-11/12 xl:w-[1300px] grid gap-5 md:flex md:gap-4 xl:flex xl:gap-5 2xl:w-[1400px]"
+      class="w-[87%] sm:w-[400px] md:w-11/12 xl:w-[1300px] grid gap-5 md:flex md:gap-4 xl:flex xl:gap-5 2xl:w-[1400px]"
     >
       <div
         class="md:w-[50%] xl:w-[60%] 2xl:w-[59%] p-6 xl:p-10 bg-[#151516] h-[28em] md:h-[38em] lg:h-[42em] xl:h-[40em] 2xl:h-[44em] rounded-2xl"
@@ -24,7 +24,7 @@
         />
         <img
           src="../../assets/facetime__de08jpatpuwm_medium_2x.png"
-          class="mt-6 xl:hidden"
+          class="mt-6 hidden md:block xl:hidden"
           alt=""
         />
         <img

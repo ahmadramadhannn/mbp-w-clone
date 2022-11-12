@@ -1,11 +1,11 @@
 <template>
   <div class="flex justify-center mt-7">
     <div
-      class="grid gap-5 md:grid md:grid-cols-2 md:gap-4 xl:grid xl:gap-5 xl:grid-cols-2 w-10/12 sm:w-[400px] md:w-11/12 lg:w-[979px] xl:w-[1300px] 2xl:w-[1400px]"
+      class="grid gap-5 md:grid md:grid-cols-2 md:gap-4 xl:grid xl:gap-5 xl:grid-cols-2 w-[87%] sm:w-[400px] md:w-11/12 lg:w-[979px] xl:w-[1300px] 2xl:w-[1400px]"
     >
       <div
         id="scissor"
-        class="rounded-3xl h-[34em] md:h-[36em] lg:h-[38em] xl:h-[40em] 2xl:h-[43em] p-6"
+        class="rounded-3xl h-[34em] md:h-[36em] lg:h-[38em] xl:h-[42em] 2xl:h-[43em] p-6"
       >
         <p
           class="font-['SF_Pro_Semibold'] text-[#fff] text-[19px] md:text-[21px] font-semibold"
@@ -33,7 +33,7 @@
       </div>
       <div
         id="touchBar"
-        class="bg-[#151516] overflow-hidden rounded-3xl h-[33em] md:h-[36em] lg:h-[38em] xl:h-[40em] 2xl:h-[43em] p-6"
+        class="bg-[#151516] overflow-hidden rounded-3xl h-[33em] md:h-[36em] lg:h-[38em] xl:h-[42em] 2xl:h-[43em] p-6"
       >
         <p
           class="font-['SF_Pro_Semibold'] text-[#fff] text-[19px] md:text-[21px] font-semibold"
