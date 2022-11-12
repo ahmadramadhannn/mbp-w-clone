@@ -1,6 +1,6 @@
 # MacBook Pro 13-inch web clone
 
-A fully responsive macbook pro 13 website clone, i created this with 6 days.
+A fully responsive macbook pro 13 website clone, i created this with 5 to 6 days.
 
 
 
