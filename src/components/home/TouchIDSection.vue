@@ -2,7 +2,7 @@
   <div class="flex justify-center mt-6">
     <div
       id="touch_id"
-      class="w-[87%] sm:w-[400px] md:w-11/12 lg:w-[979px] xl:w-[1300px] 2xl:w-[1400px] rounded-3xl lg:h-[37em] xl:h-[43em]"
+      class="w-[87%] sm:w-[400px] md:w-11/12 lg:w-[979px] xl:w-[1300px] 2xl:w-[1400px] rounded-3xl md:h-[41em] lg:h-[37em] xl:h-[43em]"
     >
       <div class="p-6 lg:p-8 xl:p-10">
         <p
