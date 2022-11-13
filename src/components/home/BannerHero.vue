@@ -55,7 +55,7 @@
         <p
           class="text-[#fff] font-normal font-['SF_Pro_Medium'] text-[21px] md:text-[24px] lg:text-[28px] hover:underline"
         >
-          Watch the event >
+          Watch the event ›
         </p>
       </div>
     </div>
