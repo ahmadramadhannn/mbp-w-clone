@@ -4,7 +4,7 @@
       class="w-[88%] sm:w-[400px] md:w-11/12 xl:w-[1300px] 2xl:w-[1400px] grid gap-5 md:grid border-7 xl:grid xl:grid-cols-3 xl:gap-5 2xl:gap-7"
     >
       <div
-        class="bg-[#151516] rounded-3xl h-[33em] md:h-[41em] lg:h-[42em] xl:h-[40em] p-6 xl:p-10"
+        class="bg-[#151516] rounded-3xl h-[36em] md:h-[41em] lg:h-[42em] xl:h-[40em] p-6 xl:p-10"
       >
         <span
           class="text-[19px] md:text-[21px] text-[#fff] font-semibold font-['SF_Pro_Medium']"
@@ -69,7 +69,7 @@
         s
       </div>
       <div
-        class="bg-[url('https://res.cloudinary.com/dk7urhntn/image/upload/v1668136779/macbook/truetone_warm_bg__gjhxib60wtua_small_yrtqzl.jpg')] xl:bg-[url('https://res.cloudinary.com/dk7urhntn/image/upload/v1668135242/macbook/truetone_warm_bg__gjhxib60wtua_large_2x_ht75ez.jpg')] bg-no-repeat bg-cover rounded-3xl h-[33em] xl:order-3 md:h-[41em] lg:h-[42em] xl:h-[40em] p-6 xl:p-10"
+        class="bg-[url('https://res.cloudinary.com/dk7urhntn/image/upload/v1668136779/macbook/truetone_warm_bg__gjhxib60wtua_small_yrtqzl.jpg')] xl:bg-[url('https://res.cloudinary.com/dk7urhntn/image/upload/v1668135242/macbook/truetone_warm_bg__gjhxib60wtua_large_2x_ht75ez.jpg')] bg-no-repeat bg-cover rounded-3xl h-[36em] xl:order-3 md:h-[41em] lg:h-[42em] xl:h-[40em] p-6 xl:p-10"
       >
         <span
           class="text-[19px] md:text-[21px] text-[#fff] font-semibold font-['SF_Pro_Medium']"
