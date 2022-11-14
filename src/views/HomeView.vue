@@ -20,7 +20,9 @@
 </template>
 
 <script setup>
-import { onMounted } from "vue";
+import { useNavbarStore } from "../store/useNavbarStore";
+import { storeToRefs } from "pinia";
+import { onMounted, watchEffect } from "vue";
 import BannerHero from "../components/home/BannerHero.vue";
 import LevelUp from "../components/home/LevelUp.vue";
 import Perfomance from "../components/home/Perfomance.vue";
@@ -37,6 +39,18 @@ import ScissorSection from "../components/home/ScissorSection.vue";
 import TouchIDSection from "../components/home/TouchIDSection.vue";
 import ConnectivityIntroSection from "../components/home/ConnectivityIntroSection.vue";
 import PortAndWifiSection from "../components/home/PortAndWifiSection.vue";
+
+const main = useNavbarStore();
+
+const { preventScroll } = storeToRefs(main);
+
+watchEffect(() => {
+  if (preventScroll.value === true) {
+    document.body.style.overflowY = "hidden";
+  } else {
+    document.body.style.overflowY = "";
+  }
+});
 
 onMounted(() => {
   document.body.style.backgroundColor = "black";

@@ -34,7 +34,9 @@
 </template>
 
 <script setup>
-import { onMounted } from "vue";
+import { onMounted, watchEffect } from "vue";
+import { useNavbarStore } from "../store/useNavbarStore";
+import { storeToRefs } from "pinia";
 import SectionFinish from "../components/techSpecs/SectionFinish.vue";
 import PriceSection from "../components/techSpecs/PriceSection.vue";
 import ChipSection from "../components/techSpecs/ChipSection.vue";
@@ -62,6 +64,17 @@ import MacbookProEnvSection from "../components/techSpecs/MacbookProEnvSection.v
 import AccessoriesSection from "../components/techSpecs/AccessoriesSection.vue";
 import MacBookProSection from "../components/techSpecs/MacBookProSection.vue";
 
+const main = useNavbarStore();
+
+const { preventScroll } = storeToRefs(main);
+
+watchEffect(() => {
+  if (preventScroll.value === true) {
+    document.body.style.overflowY = "hidden";
+  } else {
+    document.body.style.overflowY = "";
+  }
+});
 onMounted(() => {
   document.body.style.backgroundColor = "black";
 });

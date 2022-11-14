@@ -6,11 +6,24 @@
     <div
       class="w-11/12 sm:w-[94%] lg:w-[980px] xl:w-[995px] flex justify-between xl:flex gap-10 items-center"
     >
-      <i
-        @click="showList"
-        class="fa fa-bars text-gray-400 block lg:hidden"
-        aria-hidden="true"
-      ></i>
+      <div
+        @click="
+          hiddenScroll();
+          showList();
+        "
+        class="text-gray-400 block lg:hidden"
+      >
+        <i
+          :class="preventScroll ? 'hidden' : 'block'"
+          class="fa fa-bars"
+          aria-hidden="true"
+        ></i>
+        <i
+          :class="preventScroll ? 'block' : 'hidden'"
+          class="fa fa-window-close"
+          aria-hidden="true"
+        ></i>
+      </div>
       <NavMobile v-if="List" :headerList="headerList" />
 
       <img src="../assets/apple.svg" alt="apple logo" class="text-[#f5f5f7]" />
@@ -33,6 +46,7 @@
     </div>
   </header>
   <nav
+    v-if="!preventScroll"
     :class="{
       'bg-[##f5f5f7]': $route.path === '/whymac',
       stickY: $route.path != '/whymac',
@@ -109,6 +123,8 @@
 <script setup>
 import { ref, onMounted } from "vue";
 import NavMobile from "./home/NavMobile.vue";
+import { useNavbarStore } from "../store/useNavbarStore";
+import { storeToRefs } from "pinia";
 const List = ref(false);
 const listPage = ref(false);
 const scrollTimer = ref(0);
@@ -120,6 +136,10 @@ const showList = () => {
 
 const showPageList = () => {
   listPage.value = !listPage.value;
+};
+
+const hiddenScroll = () => {
+  preventScroll.value = !preventScroll.value;
 };
 
 const headerList = [
@@ -140,6 +160,11 @@ const pageList = [
   { id: 2, page: "Why Mac", to: "/whymac" },
   { id: 3, page: "Tech Specs", to: "/techspecs" },
 ];
+
+const main = useNavbarStore();
+
+const { preventScroll } = storeToRefs(main);
+console.log(preventScroll.value);
 
 const handleScroll = () => {
   if (scrollTimer.value) return;

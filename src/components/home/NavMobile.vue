@@ -20,7 +20,8 @@
         <p
           v-for="(data, index) in headerList"
           :key="index"
-          class="font-['SF_Pro_Text'] pb-2 w-full border-b font-normal text-[#f5f5f7] text-[17px]"
+          id="list"
+          class="font-['SF_Pro_Text'] pb-2 w-full font-normal text-[#f5f5f7] text-[17px]"
         >
           {{ data.name }}
         </p>
@@ -36,7 +37,8 @@ const props = defineProps({
 </script>
 
 <style scoped>
-#search {
+#search,
+#list {
   border-bottom: 1px solid rgba(255, 255, 255, 0.24);
 }
 </style>
